@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="resultat.php" method="post">
+  <fieldset>
+    <legend>Informations personnelles</legend>
+    <label for="Nom">Nom</label>
+    <input type="text" name="Nom" id="Nom" required placeholder="Ex:Kotchi"><br>
+    <label for="Prénoms">Prénoms</label>
+    <input type="text" name="Prénoms" id="Prénoms"><br>
+    <label for="MDP">Mot de passe</label>
+    <input type="password" name="MDP" id="MDP" required placeholder="Ex:d251vderf/"><br>
+    <label for="Âge">Votre Âge</label>
+    <input type="number" min="18" max="100" stop="1"><br>
+<Label for="email">Email:</Label>
+<input type="email" name="email"><br>
+  </fieldset>
+<label >Qui êtes vous?</label><br>
+<textarea rows="10" cols="50" name="Présentation" placeholder="Je suis Lincoln clay"></textarea>
+    <input type="reset" value="Annuler">
+    <input type="submit" value="Envoyer">
+    <fieldset>
+        <legend>Divertissement</legend>
+        <input type="checkbox" value="Football" name="1">FOOTBALL<br>
+        <input type="checkbox" value="Cinéma" name="2">CINEMA
+        <input type="checkbox" value="Chasse" name="3">CHASSE
+    </fieldset>
+   <label >Vous êtes?</label>
+   <input type="radio" name="sexe" value="Homme">Homme
+   <input type="radio" name="sexe" value="Femme">Femme
+   <fieldset>
+    <legend>Localisation</legend>
+    <label >Pays de résidence</label>
+    <select name="Pays" id="Pays">
+    <optgroup label="Afrique">
+   <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+   <option value="Maroc">Maroc</option>
+    </optgroup>
+    <optgroup label="Europe">
+        <option value="France">France</option>
+        <option value="Angleterre">Angleterre</option>
+    </optgroup>
+</select>
+   </fieldset>
+    </form>
+</body>
+</html>

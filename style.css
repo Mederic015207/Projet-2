@@ -1,0 +1,9 @@
+body {
+background-color: rgba(42, 165, 79, 0.144);
+}
+legend{
+    color: crimson;
+}
+.Nom{
+    list-style: lower-alpha;
+}
